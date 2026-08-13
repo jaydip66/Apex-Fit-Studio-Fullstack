@@ -1,0 +1,17 @@
+# Virtual Environment
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Database & Secret files
+db.sqlite3
+.env
+
+# React Node Modules
+node_modules/
+build/
+.DS_Store
