@@ -40,7 +40,7 @@ function App() {
   const [bookingData, setBookingData] = useState({ member_name: '', phone: '', facility_type: 'Personal Training', booking_date: '', time_slot: 'Morning (6:00 AM - 8:00 AM)' });
   const [inquiryData, setInquiryData] = useState({ name: '', email: '', phone: '', message: '' });
 
-  const API_URL = 'http://127.0.0.1:8000/api/';
+  const API_URL = 'https://apex-fit-backend.onrender.com/api/';
 
   const images = {
     hero: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1600&q=80',
